@@ -1,0 +1,1 @@
+docker run --rm -ti -p 3000:3000 --expose=3000  --mount type=bind,source="${PWD}",target="/myapp" node:12.14 bash
